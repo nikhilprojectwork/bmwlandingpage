@@ -1,0 +1,359 @@
+* {
+    margin: 0px;
+}
+
+#create {
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+    filter: blur(20);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3,
+h5,
+h1,
+h6 {
+    color: aliceblue;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 10px;
+}
+
+#nav1 {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    align-items: center;
+}
+
+#img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+
+i {
+    font-size: 40px;
+    margin-left: 30px;
+    color: white;
+}
+
+.om {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(249, 255, 255);
+
+}
+
+button {
+    border: none;
+    background-color: deepskyblue;
+    color: aliceblue;
+    border-radius: 4px;
+    height: 40px;
+    width: 90px;
+}
+
+#main2 {
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main {
+    background-color: black;
+}
+
+.om:hover {
+    text-decoration: 5px underline red;
+    color: red;
+}
+
+#imges img {
+    height: 700px;
+    width: 750px;
+    border-radius: 10px;
+}
+
+#loding {
+    margin: 10px;
+}
+
+#e1 {
+    font-size: 50px;
+}
+
+#ensure {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 38%;
+    background-color: rgb(23, 23, 24);
+    position: absolute;
+    top: 88%;
+    left: 0%;
+    border-radius: 10px;
+
+}
+
+#logos {
+    display: flex;
+}
+
+#con {
+    display: flex;
+    justify-content: space-around;
+    height: 20px;
+    width: 100%;
+    opacity: 1;
+}
+
+#num div {
+    color: aliceblue;
+    font-size: 20px;
+    opacity: 1;
+}
+
+h6 {
+    font-size: 20px;
+    opacity: 1;
+}
+
+#num {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 1;
+}
+
+#lo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    opacity: 1;
+}
+
+#contents {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#main3 {
+    width: 100%;
+    height: 800px;
+}
+
+#contents div a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+#contents div h1 {
+    color: black;
+    margin-top: 1%;
+}
+
+#contents div p {
+    margin-top: 2%;
+    line-height: 20px;
+}
+
+#t1 {
+    height: 600px;
+    width: 90%;
+    background-image: url('C:\\Users\\Admin\\Downloads\\e-cart.jpg');
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+#t2 {
+    height: 500px;
+    width: 90%;
+    background-image: url('C:\\Users\\Admin\\Downloads\\truck.jpg');
+    background-size: cover;
+    border: 2px solid rgb(244, 243, 243);
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+#t3 {
+    height: 500px;
+    width: 90%;
+    background-image: url('C:\\Users\\Admin\\Downloads\\fule.jpg');
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+#t11 {
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 50px;
+}
+
+#t11 p {
+    color: white;
+
+}
+
+#btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    height: 200px;
+    align-items: center;
+}
+
+#blm {
+    margin-left: 30px;
+    display: flex;
+}
+
+#blm button {
+    width: 100px
+}
+
+#blm button:hover {
+
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+#t11 h1:hover {
+    background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#t11 p:hover{
+    background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+#main5{
+    height: 700px;
+    margin: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+#c1{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+#con{
+    text-align: center;
+}
+#i1{
+    margin-right: 15px;
+    color: black;
+}
+#card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    align-items: center;
+}
+#c1:hover{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 30px;
+    color: rgb(204, 233, 90);
+    box-shadow: 10px 10px 10px #FFCC70;
+}
+#main5 h1{
+    background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+#main6{
+    height: 100px;
+    border-top: 3px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:75%;
+    margin-left: 10%;
+}
+#so i{
+    color: black;
+    font-size: 15px;
+}
+#im1{
+    display: flex;
+    justify-content: space-between;
+    width: 18%;
+    align-items: center;
+    font-size: 15px;
+
+
+}
+#so{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#copy{
+    display: flex;
+    align-items: center;
+
+}
+#copy a{
+    text-decoration: none;
+    color: black;
+}
+#main8{
+    height: 200px;
+}
+#usa{
+    height: 150px;
+    width: 150px;
+}
+#us1{
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+#main8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 15%;
+    width: 70%;
+
+}
+h1 a{
+    text-decoration: none;
+}
